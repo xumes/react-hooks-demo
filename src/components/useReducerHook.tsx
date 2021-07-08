@@ -1,7 +1,7 @@
 // import { useReducer } from "react";
 // import { reducer } from './reducer'
 
-// const UseReducerHook = ( ) => {
+const UseReducerHook = ( ) => { }
 // //     const initialState = 50;
 // //     const [width, dispatch] = useReducer(reducer, initialState);
 
@@ -19,4 +19,4 @@
 // //   );
 // }
 
-// export default UseReducerHook
+export default UseReducerHook
