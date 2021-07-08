@@ -7,8 +7,9 @@ import {
 } from "react-router-dom";
 import Home from './components/Home';
 import UseStateHook from './components/useStateHook';
-
-
+import UseEffectHook from './components/useEffectHook';
+import UseContextHook from './components/useContextHook';
+import UseRefHook from './components/useRefHook'
 
 function App() {
   return (
@@ -20,10 +21,16 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">useState() demo</Link>
+            <Link to="/state">useState( ) demo</Link>
           </li>
           <li>
-            <Link to="/users">Users</Link>
+            <Link to="/effect">useEffect( ) demo</Link>
+          </li>
+          <li>
+            <Link to="/context">useContext( ) demo</Link>
+          </li>
+          <li>
+            <Link to="/ref">useRef( ) demo</Link>
           </li>
         </ul>
       </nav>
@@ -31,8 +38,17 @@ function App() {
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>
-        <Route path="/about">
+        <Route path="/state">
           <UseStateHook />
+        </Route>
+        <Route path="/effect">
+          <UseEffectHook />
+        </Route>
+        <Route path="/context">
+          <UseContextHook />
+        </Route>
+        <Route path="/ref">
+          <UseRefHook />
         </Route>
         <Route path="/">
           <Home />
