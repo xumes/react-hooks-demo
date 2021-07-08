@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with React Hooks
 
 This project was created to explain how React Hooks works.
 
@@ -7,4 +7,4 @@ This project was created to explain how React Hooks works.
 
 [Download the presentation, for more context](https://docs.google.com/presentation/d/1nGQEbxsndnLrjSkh_G0c3Jyn81ULC3fuu_6IhKInQBI/edit?usp=sharing "Guild.JS@Proposify")
 
-
+## By Guild.js - Proposify
