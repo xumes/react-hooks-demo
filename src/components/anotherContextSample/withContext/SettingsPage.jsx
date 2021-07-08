@@ -6,8 +6,8 @@ const SettingsPage = ( ) => {
 
     return (
         <div>
-            {person.firstName}
-            {person.lastName}
+            { person.firstName }
+            { person.lastName }
         </div>
     )
 }

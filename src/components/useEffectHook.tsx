@@ -1,33 +1,33 @@
 import React, { useEffect, useState } from "react"
 
-const UseEffectHook = () => {
-    const [ name, setName ] = useState('Joe');
+const UseEffectHook = ( ) => {
+    const [ name, setName ] = useState( 'Joe' );
     const [ count, setCount ] = useState( 100 )
 
-    const handleIncrease = () => {
-        setCount(count+1)
+    const handleIncrease = ( ) => {
+        setCount( count + 1 )
     }
 
-    const handleDecrease = () => {
-        setCount(prevState => prevState - 1)
+    const handleDecrease = ( ) => {
+        setCount( prevState => prevState - 1 )
     }
 
-    useEffect(() => {
-        console.log(`use effect caled with name= ${name}`)
+    useEffect( ( ) => {
+        console.log( `use effect caled with name= ${name}` )
 
-        return () => {
-            setName('Joe')
-            console.log(`bye ${name}`)
+        return ( ) => {
+            setName( 'Joe' )
+            console.log( `bye ${name}` )
         }
-    })
+    } )
 
     return (
         <div>
-        <h2>UseEffectHook</h2>
-        <p>Hello {name}</p>
-        <p>count is in {count} </p>
-        <button onClick={handleIncrease}>Increase</button>
-        <button onClick={handleDecrease}>Decrease</button>
+            <h2>UseEffectHook</h2>
+            <p>Hello { name }</p>
+            <p>count is in { count } </p>
+            <button onClick={ handleIncrease }>Increase</button>
+            <button onClick={ handleDecrease }>Decrease</button>
         </div>
     )
 }

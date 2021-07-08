@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 
-const UseStateHook = () => {
+const UseStateHook = ( ) => {
     const [ count ] = useState( 100 )
 
     return (
         <div>
             <h2>useStateHook</h2>
-            <p>count is in {count} </p>
+            <p>count is in { count } </p>
         </div>
     )
 }

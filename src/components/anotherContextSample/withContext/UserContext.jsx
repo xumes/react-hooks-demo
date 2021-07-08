@@ -5,4 +5,4 @@ const user = {
     lastName: 'Doe'
   }
 
-export const UserProfileContext = React.createContext(user);
+export const UserProfileContext = React.createContext( user );

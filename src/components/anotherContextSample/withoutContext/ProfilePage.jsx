@@ -5,10 +5,11 @@ const user = {
   lastName: 'Doe'
 }
 
-const ProfilePage = () => {
+const ProfilePage = ( ) => {
     // ProfilePage sends the user object as a prop to HomePage component
+
     return (
-        <HomePage person={user} />
+        <HomePage person={ user } />
     )
 }
 
