@@ -13,7 +13,7 @@ const UseRefHook = ( ) => {
 
     if( inputEl?.current ) {
         inputEl.current.value = ''
-       inputEl.current.focus( );
+        inputEl.current.focus( );
     }
   }
   return (

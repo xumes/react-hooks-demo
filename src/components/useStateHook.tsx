@@ -5,8 +5,8 @@ const UseStateHook = () => {
 
     return (
         <div>
-         <h2>useStateHook</h2>
-         <p>count is in {count} </p>
+            <h2>useStateHook</h2>
+            <p>count is in {count} </p>
         </div>
     )
 }
